@@ -4,7 +4,15 @@
 public class DooBee {
     public static void main(String[] args) {
         //DooBee();
-        beerSong(5);
+        //beerSong(5);
+        Quotes quoteGenerator = new Quotes();
+        int x=0;
+        while (x<10){
+//            quoteGenerator.getQuote();
+            System.out.println(quoteGenerator.toString()+quoteGenerator.getQuote()+" и "+quoteGenerator.getQuote());
+//            System.out.println(quoteGenerator.wordListOne[(int)(Math.random()*12)]);
+            x++;
+        }
     }
 
     private static void beerSong(int beerNum) {
