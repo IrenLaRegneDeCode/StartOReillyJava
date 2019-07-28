@@ -9,6 +9,7 @@ public class Main {
     public static void main(String[] args) {
         Calendar myTestCalendar=new Calendar (1328, 16);
 
+
 //        System.out.println(myTestCalendar.fullDate);
 //        System.out.println(myTestCalendar.fullFormat);
         System.out.println(myTestCalendar.getYear());
